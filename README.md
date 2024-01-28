@@ -19,7 +19,7 @@
    <b>- Distracted:</b> <p> Provides a gentle reminder to refocus attention if the head pose suggests distraction or inattentiveness.</p>
 <h3>5. Driver Activity:</h3> 
    <p>-A camera can be placed on the A pillar of the car facing the driver to monitor the activity of the driver.</p>
-   <p>-The monitoring system classifies driver activities into 10 distinct categories:</p>
+   <p>-The monitoring system classifies driver activities into 10 distinct categories: <br>
 	<b>Safe driving <br>
 	Radio operation <br>
 	Drinking <br>
@@ -29,7 +29,7 @@
 	Texting with the right hand <br>
 	Talking on the phone with the right hand <br>
 	Texting with the left hand <br>
-	Talking on the phone with the left hand <br> </b> 
+	Talking on the phone with the left hand  </b> <br> </p>
    <p>-The dataset used for training and validation is sourced from the State Farm Distracted Driver Detection dataset, available at https://www.kaggle.com/c/state-farm-distracted-driver-detection.</p>
   <p> -Implemented a standard CNN architecture with 4 convolutional layers, 4 max-pooling layers, dropout layers, and flattening layers.</p>
   <p> -The model demonstrated an impressive 97% accuracy in predicting driver behavior. </p> 
