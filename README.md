@@ -1,5 +1,5 @@
 <h1>DriveWise</h1>
-<p>DriveWise is an innovative application designed to enhance safety and accountability within taxi rental services by evaluating driver performance in real time. Employing cutting-edge technology, DriveWise assesses drivers based on attentiveness, alertness, and adherence to traffic regulations during journeys. This README provides an overview of DriveWise's functionality, features, and implementation.</p>
+<p>DriveWise is an innovative application designed to enhance safety and accountability within taxi rental services by evaluating driver performance in real time. Employing machine learning technology, DriveWise assesses drivers based on attentiveness, alertness, and adherence to traffic regulations during journeys. This README provides an overview of DriveWise's functionality, features, and implementation.</p>
 <h2>How Does It Work?</h2>
 <p>DriveWise uses advanced technology to analyze the driver's behavior and detect potential safety risks. Here's a breakdown of how it works:</p>
 <h3>1. Face Detection:</h3>
@@ -20,16 +20,16 @@
 <h3>5. Driver Activity:</h3> 
    <p>-A camera can be placed on the A pillar of the car facing the driver to monitor the activity of the driver.</p>
    <p>-The monitoring system classifies driver activities into 10 distinct categories: <br>
-	<b>Safe driving <br>
-	Radio operation <br>
-	Drinking <br>
-	Reaching behind <br>
-	Hair and makeup <br>
-	Talking to passenger(s) <br>
-	Texting with the right hand <br>
-	Talking on the phone with the right hand <br>
-	Texting with the left hand <br>
-	Talking on the phone with the left hand  </b> <br> </p>
+		<b>Safe driving <br>
+		Radio operation <br>
+		Drinking <br>
+		Reaching behind <br>
+		Hair and makeup <br>
+		Talking to passenger(s) <br>
+		Texting with the right hand <br>
+		Talking on the phone with the right hand <br>
+		Texting with the left hand <br>
+		Talking on the phone with the left hand  </b> <br> </p>
    <p>-The dataset used for training and validation is sourced from the State Farm Distracted Driver Detection dataset, available at https://www.kaggle.com/c/state-farm-distracted-driver-detection.</p>
   <p> -Implemented a standard CNN architecture with 4 convolutional layers, 4 max-pooling layers, dropout layers, and flattening layers.</p>
   <p> -The model demonstrated an impressive 97% accuracy in predicting driver behavior. </p> 
