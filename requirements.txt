@@ -1,0 +1,13 @@
+opencv-python
+numpy
+Utils
+mediapipe
+face_geometry
+os
+sklearn
+seaborne
+keras
+tensorflow
+PIL
+matplotlib
+pickle
